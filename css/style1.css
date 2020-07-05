@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+background-image: url(../image/bus4.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-image: linear-gradient(black);
+
+}
+.About{
+  font-size: 35px;
+  text-align: center;
+  margin-top: 30px;
+
+}
+h1{
+  text-align: center;
+
+}
+.delhi
+{
+background-size: contain;
+border-width: 5px;
+}

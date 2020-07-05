@@ -1,0 +1,87 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100%; height: 100vh;
+  background-image:url('../image/maxresdefault.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav{
+  width: 100%;height: 10vh;
+  background: rgba(0,0,0,0.2);
+  color: white;display:flex;justify-content: space-between;
+  align-items: center;
+}
+nav .logo{
+  width:25%
+  text-align:center;
+  margin-left: 10px;
+}
+nav .menu{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+nav .menu a{
+  width:25%;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+main{
+  width:100%;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;color: white;
+}
+section h3
+{
+  font-size: 40px;
+  font-weight: 200;letter-spacing: 3px;
+  text-shadow: 1px 1px 2px black;
+  text-align: center;
+}
+section h1{
+  text-align: center;
+  font-size: 55px;
+  font-weight: 700;
+  text-shadow: 2px 1px 5px black;
+  margin: 30px 0px 30px 0px;
+}
+section p{
+  text-align: center;
+  font-size: 20px;
+  word-spacing: 2px;
+  text-shadow: 1px 1px 1px black;
+  margin-bottom: 25px;
+}
+section a{
+  padding: 12px 30px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: center;
+}
+section .btn1
+{
+  background: white;
+  color: black;
+  margin-left: 75px;
+
+}
+section .btn2{
+  background: green;
+  color: white;
+  margin-left: 75px;
+}
+nav .logo h1
+{
+  margin-left:10px;
+}

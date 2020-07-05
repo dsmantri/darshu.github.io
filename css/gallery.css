@@ -1,0 +1,23 @@
+.box{
+  display: block;;
+  float: left;
+  width: 20%;
+  overflow: hidden;
+}
+img{
+  width: 100%;
+  padding: 10px;
+}
+main{
+  margin-left: 120px;
+}
+.co{
+  width: 25px;
+}
+img:hover{
+transform: scale(2,3);
+transition: 3s transform;
+}
+body{
+  background-color: powderblue;
+}
